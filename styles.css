@@ -1,0 +1,92 @@
+
+body {
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    
+}
+
+header img {
+    margin-left: 15px;
+    width: 100px;
+}
+
+section.top-page {
+    background: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 100vh;
+    background-attachment: fixed;
+}
+
+/* page de bienvenue (landing page) */
+
+.big-title {
+    padding-top: -150px;
+    color: black;
+    font-size: 60px;
+    padding: 150px 90px;
+    font-family: serif;
+    font-weight: 150px;
+    margin-bottom: 0px;
+ 
+}
+
+
+/* menu de navigation */
+
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 400px;
+    margin-left: 1050px;
+    color: rgb(143, 39, 39);
+}
+
+/*widget 1*/
+
+.tradingview-widget-container{
+    padding-left: 2000px;
+}
+
+/*widget 2*/
+
+.tradingview-widget-container-2{
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+/*widget 3*/
+
+.tradinview-widget-container-3{
+  padding-left: 1500px;
+}
+
+/*widet 4*/
+.widget-actu{
+    display: inline-block;
+}
+
+.tradingview-widget-container-4{
+    display: flex;
+ 
+
+}
+
+/*widget 5*/
+
+.tradingview-widget-container-5{
+    margin-top: 50px;
+    margin-bottom: 500px;
+}
+
+
+
+
+
+
+
+
